@@ -121,6 +121,7 @@ The goal of this project is to build a movie recommender system that goes beyond
 2.  **Run the notebooks:**
 
     -   Execute the notebooks in the `notebooks/` directory in the specified order:
+
         -   `data_exploration.ipynb`: For dataset analysis and preprocessing. Find missing data, create new tagged description with every movie unique id and overview. Make new cleaned movie csv file for text classification.
         -   `vector_search.ipynb`: Convert the whole document into meaningful chunks of data then convert them into document embeddings with HuggingfaceEmbedding model and store that data in chroma vector database.
         -   `text_classification.ipynb`: For classifying movie genres or other relevant categories with zero-shot classification.
