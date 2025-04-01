@@ -11,7 +11,7 @@ import gradio as gr
 
 load_dotenv()
 
-movies = pd.read_csv("movies_with_emotion.csv")
+movies = pd.read_csv("data/movies_with_emotion.csv")
 movies["Large_Poster"] = movies["Poster_Link"] + "&fife=w800"
 movies["Large_Poster"] = np.where(
     movies["Large_Poster"].isna(),
