@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-## 🎬 Description
+## 🎬 Project Description
 
 A powerful movie recommendation engine that leverages natural language processing and machine learning to provide personalized movie suggestions based on semantic understanding of user preferences, movie content, and sentiment analysis.
 
@@ -22,6 +22,7 @@ This project implements a semantic movie recommender system that leverages Kaggl
 
 - [Description](#description)
 - [Project Overview](#project-overview)
+- [Output Website Screenshot](#output-website-screenshot)
 - [Features](#features)
 - [How its Works](#how-it-works)
 - [Technologies Used](#technologies-used)
@@ -40,6 +41,12 @@ The goal of this project is to build a movie recommender system that goes beyond
 -   **Hugging Face Embedding Models:** To create vector representations of movie descriptions and user queries.
 -   **Vector Search:** To find movies with similar semantic meanings.
 -   **Gradio:** To create an interactive web interface.
+
+## 💻 Output Website Screenshot
+
+![Image](https://github.com/user-attachments/assets/8fa191f4-0450-47b3-b2e3-d1dcbb02cb14)
+
+![Image](https://github.com/user-attachments/assets/cb1368ff-d24d-4f70-9a1c-f4381de09e2b)
 
 ## 🚀 Features
 

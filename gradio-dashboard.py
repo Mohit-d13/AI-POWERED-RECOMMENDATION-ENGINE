@@ -15,7 +15,7 @@ movies = pd.read_csv("data/movies_with_emotion.csv")
 movies["Large_Poster"] = movies["Poster_Link"] + "&fife=w800"
 movies["Large_Poster"] = np.where(
     movies["Large_Poster"].isna(),
-    "image_not_found.png",
+    "images/image_not_found.png",
     movies["Large_Poster"],
 )
 
