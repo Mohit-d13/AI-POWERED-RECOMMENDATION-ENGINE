@@ -16,7 +16,7 @@
 
 A powerful movie recommendation engine that leverages natural language processing and machine learning to provide personalized movie suggestions based on semantic understanding of user preferences, movie content, and sentiment analysis.
 
-This project implements a semantic movie recommender system that leverages KaggleHub movie datasets, Hugging Face Large Language Models (LLMs), embedding models, and a Gradio dashboard for user interaction. It employs techniques like data exploration, text classification, vector search, and sentiment analysis to provide personalized movie recommendations.
+This project implements a semantic movie recommender system that leverages KaggleHub movie datasets, Hugging Face Large Language Models (LLMs), embedding models, LangChain for orchestrating the workflow, LangChain Community components for integration, and Chroma as a vector database for efficient similarity search and a Gradio dashboard for user interaction. It employs techniques like data exploration, text classification, vector search, and sentiment analysis to provide personalized movie recommendations.
 
 ## 📋 Table of Contents
 
@@ -39,7 +39,9 @@ The goal of this project is to build a movie recommender system that goes beyond
 -   **KaggleHub Datasets:** Movie metadata, including plots, genres, and user reviews.
 -   **Hugging Face LLMs:** For tasks like text classification and sentiment analysis.
 -   **Hugging Face Embedding Models:** To create vector representations of movie descriptions and user queries.
+-   **LangChain:** For orchestrating LLM interactions, managing prompts, and creating conversational interfaces.
 -   **Vector Search:** To find movies with similar semantic meanings.
+-   **Chroma:** For efficient vector storage and retrieval.
 -   **Gradio:** To create an interactive web interface.
 
 ## 💻 Output Website Screenshot
@@ -170,4 +172,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Kaggle](https://www.kaggle.com/) for providing the movie datasets
 - [Hugging Face](https://huggingface.co/) for transformers and embedding models
+- [LangChain](https://www.langchain.com/) for the LLM application framework
+- [LangChain Community](https://github.com/langchain-ai/langchain) for integration components
+- [Chroma](https://www.trychroma.com/) for the vector database
 - [Gradio](https://gradio.app/) for the interactive UI framework
